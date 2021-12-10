@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Futora;
+    src: url("./FuturaBold/FuturaBold.otf") format("opentype");
+}
+
+$purple:#031f73;
+$white:#fff;
+$grey:rgb(44, 47, 58);
+
+
+body{
+    background-color: aquamarine;
+    font-family: Futora,sans-serif;
+}
+
+.container{
+    width: 384px;
+    height: 672px;
+    background-color: cadetblue;
+    margin: auto;
+}
+.wrapper{
+
+    width: 295.008px;
+    margin: auto;
+
+}
+
+.innerbox-layer{
+    width: 20px;
+    height: 20px;
+    background-color: $purple;
+}
+
+.outter-box-layer{
+
+    border:0.3rem solid red;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.last{
+        border: none;
+    }
+
+}
+
+.smart-box
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: $white;
+}
+
+.overlay{
+    position:absolute;
+    width: 35px;
+    height: 35px;
+    background-color: $white;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.smart-QR{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 26.456px;
+    
+
+    h1{
+        font-size: 2.5rem;
+        color: $purple;
+    }
+}
+
+.accepted-here{
+    display: flex;
+    justify-content: center;
+    h1{
+        color: $grey;
+        font-size: 1rem;
+        padding:0.5rem;
+    }
+
+
+}
+
+.QR-SCANNER{
+    display: flex;
+    justify-content: center;
+    .outerScanner{
+        padding: 9.448188976px;
+        border: 1px solid rgb(36, 29, 29);
+        position: relative;
+      
+
+    }
+
+    .innerScanner{
+        width: 162.48944882px;
+        height:160.47874016px;
+        background-color: $white;
+
+
+    }
+
+}
+
+
+.merchantName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15.118110236px;
+    gap:12.472440945px;
+    padding-bottom: 35.905511811px;
+    h1{
+        font-size: 20px;
+        color: $grey;
+    }
+    h2{
+        font-size: 12.666666666666666px;
+        letter-spacing: 100%;
+        color: $grey;
+    }
+}
+
+
+.afflitation{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25.322834646px;
+
+
+    .poweredBy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9.4488188976px;
+        h1{
+            color: $grey;
+            font-size: 13.333333333333332px;
+        }
+
+        .powred-images{
+
+            display: flex;
+            gap: 0.5rem;
+            img{
+                width: 50px;
+                height: 50px;
+               
+            }
+
+        }
+       
+    }
+
+
+    .acquiredBy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9.4488188976px; 
+        h1{
+            color: $grey;
+            font-size: 13.333333333333332px;
+        }
+
+        .acquired-image{
+            display: flex;
+            gap: 0.5rem;
+
+            img{
+                width: 50px;
+                height: 50px;
+
+            }
+
+        }
+
+        
+    }
+
+}
+
+
+.phone-number{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 39.68503937px;
+    .w-v{
+        color: $grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 13.333333333333332px;
+
+        }
+        p{
+            font-size: 13.333333333333332px;
+
+        }
+
+    }
+
+    .hotline{
+        color: $grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 13.333333333333332px;
+
+        }
+        p{
+            font-size: 13.333333333333332px;
+
+        }
+
+    }
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: $grey;
+
+}
