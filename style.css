@@ -18,7 +18,7 @@ body {
 .container {
   width: 384px;
   height: 672px;
-  background-color: cadetblue;
+  background-color: #fff;
   margin: auto;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .accepted-here h1 {
-  color: #2c2f3a;
+  color: #232021;
   font-size: 1rem;
   padding: 0.5rem;
 }
@@ -147,13 +147,13 @@ body {
 
 .merchantName h1 {
   font-size: 20px;
-  color: #2c2f3a;
+  color: #232021;
 }
 
 .merchantName h2 {
   font-size: 12.666666666666666px;
   letter-spacing: 100%;
-  color: #2c2f3a;
+  color: #232021;
 }
 
 .afflitation {
@@ -184,7 +184,7 @@ body {
 }
 
 .afflitation .poweredBy h1 {
-  color: #2c2f3a;
+  color: #232021;
   font-size: 13.333333333333332px;
 }
 
@@ -218,7 +218,7 @@ body {
 }
 
 .afflitation .acquiredBy h1 {
-  color: #2c2f3a;
+  color: #232021;
   font-size: 13.333333333333332px;
 }
 
@@ -245,7 +245,7 @@ body {
 }
 
 .phone-number .w-v {
-  color: #2c2f3a;
+  color: #232021;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,7 +270,7 @@ body {
 }
 
 .phone-number .hotline {
-  color: #2c2f3a;
+  color: #232021;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,6 +301,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #2c2f3a;
+  color: #232021;
 }
 /*# sourceMappingURL=style.css.map */

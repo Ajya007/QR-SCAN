@@ -10,7 +10,7 @@
 
 $purple:#031f73;
 $white:#fff;
-$grey:rgb(44, 47, 58);
+$grey:#232021;
 
 
 body{
@@ -21,7 +21,7 @@ body{
 .container{
     width: 384px;
     height: 672px;
-    background-color: cadetblue;
+    background-color: $white;
     margin: auto;
 }
 .wrapper{
