@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: #7f8cff;
   font-family: Futora,sans-serif;
 }
 
@@ -27,67 +27,19 @@ body {
   margin: auto;
 }
 
-.innerbox-layer {
-  width: 20px;
-  height: 20px;
-  background-color: #031f73;
-}
-
-.outter-box-layer {
-  border: 0.3rem solid red;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.outter-box-layer.last {
-  border: none;
-}
-
-.smart-box {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  background-color: #fff;
-}
-
-.overlay {
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  background-color: #fff;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
 .smart-QR {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 2rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 26.456px;
 }
 
-.smart-QR h1 {
-  font-size: 2.5rem;
-  color: #031f73;
+.smart-QR img {
+  width: 100%;
+  height: 100px;
 }
 
 .accepted-here {
@@ -116,14 +68,89 @@ body {
 
 .QR-SCANNER .outerScanner {
   padding: 9.448188976px;
-  border: 1px solid #241d1d;
   position: relative;
+}
+
+.QR-SCANNER .outerScanner .line-1 {
+  width: 25%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-2 {
+  width: 3px;
+  height: 25%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-3 {
+  width: 25%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-4 {
+  width: 3px;
+  height: 25%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-5 {
+  width: 25%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-6 {
+  width: 3px;
+  height: 25%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-7 {
+  width: 25%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+}
+
+.QR-SCANNER .outerScanner .line-8 {
+  width: 3px;
+  height: 25%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
 }
 
 .QR-SCANNER .innerScanner {
   width: 162.48944882px;
   height: 160.47874016px;
   background-color: #fff;
+}
+
+.QR-SCANNER .innerScanner img {
+  width: 100%;
 }
 
 .merchantName {
